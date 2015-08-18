@@ -1,5 +1,9 @@
 {
-    "cmd": ["${project_path}\\build.bat"],
+    "cmd": ["make"],
     "working_dir": "${project_path:${folder}}",
     "selector": "source.rst",
+
+    "windows": {
+        "cmd": ["${project_path}\\build.bat"]
+    }
 }
