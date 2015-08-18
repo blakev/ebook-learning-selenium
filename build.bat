@@ -1,0 +1,1 @@
+sphinx-build -b html -D graphviz_dot="C:\Program Files (x86)\Graphviz2.38\bin\dot.exe" source build/html

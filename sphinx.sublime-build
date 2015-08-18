@@ -1,0 +1,5 @@
+{
+    "cmd": ["${project_path}\\build.bat"],
+    "working_dir": "${project_path:${folder}}",
+    "selector": "source.rst",
+}
